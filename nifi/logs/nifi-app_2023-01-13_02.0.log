@@ -1,0 +1,29 @@
+2023-01-13 02:14:31,778 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-01-13 02:14:26,998 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 10 records in 0 milliseconds
+2023-01-13 02:14:27,026 INFO [main-EventThread] o.a.c.f.state.ConnectionStateManager State change: SUSPENDED
+2023-01-13 02:14:27,047 INFO [Curator-ConnectionStateManager-0] o.a.n.c.l.e.CuratorLeaderElectionManager org.apache.nifi.controller.leader.election.CuratorLeaderElectionManager$ElectionListener@12748927 Connection State changed to SUSPENDED
+2023-01-13 02:14:27,050 INFO [Curator-ConnectionStateManager-0] o.a.n.c.l.e.CuratorLeaderElectionManager Because Connection State was changed to SUSPENDED, will relinquish leadership for role 'Primary Node'
+2023-01-13 02:14:27,059 INFO [Leader Election Notification Thread-2] o.a.n.c.l.e.CuratorLeaderElectionManager org.apache.nifi.controller.leader.election.CuratorLeaderElectionManager$ElectionListener@12748927 has been interrupted; no longer leader for role 'Primary Node'
+2023-01-13 02:14:27,060 INFO [Leader Election Notification Thread-2] o.a.n.c.l.e.CuratorLeaderElectionManager org.apache.nifi.controller.leader.election.CuratorLeaderElectionManager$ElectionListener@12748927 This node is no longer leader for role 'Primary Node'
+2023-01-13 02:14:27,064 INFO [Leader Election Notification Thread-2] o.apache.nifi.controller.FlowController This node is no longer Primary Node
+2023-01-13 02:14:27,867 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@6f52a229 checkpointed with 2 Records and 0 Swap Files in 1469 milliseconds (Stop-the-world time = 1073 milliseconds, Clear Edit Logs time = 353 millis), max Transaction ID 19
+2023-01-13 02:14:28,318 INFO [main-EventThread] org.apache.zookeeper.ClientCnxnSocket jute.maxbuffer value is 4194304 Bytes
+2023-01-13 02:14:28,328 INFO [main-EventThread] o.a.c.f.state.ConnectionStateManager State change: LOST
+2023-01-13 02:14:28,430 INFO [Curator-ConnectionStateManager-0] o.a.n.c.l.e.CuratorLeaderElectionManager org.apache.nifi.controller.leader.election.CuratorLeaderElectionManager$ElectionListener@7442e81a Connection State changed to SUSPENDED
+2023-01-13 02:14:28,432 WARN [Clustering Tasks Thread-3] o.apache.nifi.controller.FlowController Failed to send heartbeat due to: org.apache.nifi.cluster.protocol.ProtocolException: Cannot send heartbeat because there is no Cluster Coordinator currently elected
+2023-01-13 02:14:28,443 INFO [main-EventThread] o.a.c.f.state.ConnectionStateManager State change: RECONNECTED
+2023-01-13 02:14:28,458 INFO [Curator-ConnectionStateManager-0] o.a.n.c.l.e.CuratorLeaderElectionManager org.apache.nifi.controller.leader.election.CuratorLeaderElectionManager$ElectionListener@12748927 Connection State changed to LOST
+2023-01-13 02:14:28,467 INFO [Curator-ConnectionStateManager-0] o.a.n.c.l.e.CuratorLeaderElectionManager org.apache.nifi.controller.leader.election.CuratorLeaderElectionManager$ElectionListener@7442e81a Connection State changed to LOST
+2023-01-13 02:14:28,458 INFO [Leader Election Notification Thread-1] o.a.n.c.l.e.CuratorLeaderElectionManager org.apache.nifi.controller.leader.election.CuratorLeaderElectionManager$ElectionListener@7442e81a has been interrupted; no longer leader for role 'Cluster Coordinator'
+2023-01-13 02:14:28,469 INFO [Leader Election Notification Thread-1] o.a.n.c.l.e.CuratorLeaderElectionManager org.apache.nifi.controller.leader.election.CuratorLeaderElectionManager$ElectionListener@7442e81a This node is no longer leader for role 'Cluster Coordinator'
+2023-01-13 02:14:28,471 INFO [Leader Election Notification Thread-1] o.apache.nifi.controller.FlowController This node is no longer the elected Active Cluster Coordinator
+2023-01-13 02:14:28,469 INFO [Curator-ConnectionStateManager-0] o.a.n.c.l.e.CuratorLeaderElectionManager org.apache.nifi.controller.leader.election.CuratorLeaderElectionManager$ElectionListener@12748927 Connection State changed to RECONNECTED
+2023-01-13 02:14:28,475 INFO [Curator-ConnectionStateManager-0] o.a.n.c.l.e.CuratorLeaderElectionManager org.apache.nifi.controller.leader.election.CuratorLeaderElectionManager$ElectionListener@7442e81a Connection State changed to RECONNECTED
+2023-01-13 02:14:28,474 INFO [main-EventThread] o.a.c.framework.imps.EnsembleTracker New config event received: {}
+2023-01-13 02:14:28,498 INFO [Leader Election Notification Thread-1] o.a.n.c.l.e.CuratorLeaderElectionManager org.apache.nifi.controller.leader.election.CuratorLeaderElectionManager$ElectionListener@7442e81a This node has been elected Leader for Role 'Cluster Coordinator'
+2023-01-13 02:14:28,507 INFO [Leader Election Notification Thread-1] o.apache.nifi.controller.FlowController This node elected Active Cluster Coordinator
+2023-01-13 02:14:28,501 INFO [Leader Election Notification Thread-3] o.a.n.c.l.e.CuratorLeaderElectionManager org.apache.nifi.controller.leader.election.CuratorLeaderElectionManager$ElectionListener@12748927 This node has been elected Leader for Role 'Primary Node'
+2023-01-13 02:14:28,510 INFO [Leader Election Notification Thread-3] o.apache.nifi.controller.FlowController This node has been elected Primary Node
+2023-01-13 02:14:29,950 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2023-01-13 02:14:33,466 INFO [Process Cluster Protocol Request-4] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 9f86806e-6968-40a5-a29b-e18fd6103685 (type=HEARTBEAT, length=2239 bytes) from mynifi:8080 in 3 millis
+2023-01-13 02:14:33,467 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2023-01-13 02:14:33,460 and sent to mynifi:8082 at 2023-01-13 02:14:33,467; send took 6 millis
